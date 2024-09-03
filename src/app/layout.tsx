@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Noto_Sans_TC } from 'next/font/google'
 import './globals.css'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Noto_Sans_TC({ subsets: ['latin'] })
 
@@ -17,6 +18,7 @@ export default function RootLayout({
 	return (
 		<html lang="zh-tw">
 			<body className={inter.className}>{children}</body>
+			<GoogleAnalytics gaId="G-ZFXQ48J9G6" />
 		</html>
 	)
 }
