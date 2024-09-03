@@ -57,14 +57,14 @@ export default function Footer() {
 					</a>
 				</div>
 			</div>
-			<div className="bg-[#2b3440] px-10 py-16 text-white font-bold text-xl flex justify-center">
+			<div className="bg-[#2b3440] px-10 py-16 text-white font-bold text-xl flex flex-col items-center">
 				<p>
 					因為韓國魚的網站太醜了，我重做一個，歡迎 PR{' '}
 					<a className="hover:underline" href="https://github.com/simbafs/kmt.wtf">
 						Source Code
 					</a>
 				</p>
-				<p>所有圖檔均以官網提供，本站僅重新排版設計</p>
+				<p>所有圖檔均以官網提供，本站僅重新排版設計。本網站使用 Google Analytics 蒐集資訊</p>
 			</div>
 		</footer>
 	)
